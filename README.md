@@ -7,9 +7,9 @@ A high-performance GPU-accelerated Monte Carlo simulation framework for pricing 
 - Website: https://ahmernadeem.com/research/cuda-monte-carlo.html
 - This page contains a project overview and detailed programming reports describing the code, tasks, experiments, results (including figures), and conclusions.
 
-## Overview
+## Abstract
 
-This project implements Monte Carlo methods for pricing various exotic options using NVIDIA CUDA for GPU acceleration. The implementation leverages parallel computing to achieve significant speedups over traditional CPU-based Monte Carlo simulations.
+Many Monte Carlo methods are embarrassingly parallel due to independence, and can be computationally dense, and thus benefit greatly from the GPU architecture. The canonical Monte Carlo problem is the generation of pseudo-random numbers (PRNGs), in particular numbers from the Normal distribution, which is a key component in financial simulations. Various non-standard methods exploit the latest generation of fully programmable GPUs for efficiency, including the Ziggurat and the Wallace Method, or other hybrid generators. Standard methods like Box-Muller are still robust in the GPU framework, but speed-accuracy trade-offs still need to be considered. We investigate first the transferability of Monte Carlo from sequential to parallel execution, and then discuss the pricing of exotic options such as Asian, Look-back, or Barrier options as an example. We are primarily interested in the CUDA platform, and discuss details of implementation, experiments and numerical results on this framework.
 
 ## Repository Structure
 
