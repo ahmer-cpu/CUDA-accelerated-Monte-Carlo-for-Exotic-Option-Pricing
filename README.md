@@ -36,4 +36,3 @@ This project implements Monte Carlo methods for pricing various exotic options u
 ## Languages
 
 **Primary:** CUDA C++, C++
-**Supporting:** Python (for analysis and visualization)
