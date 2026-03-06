@@ -4,12 +4,20 @@ A high-performance GPU-accelerated Monte Carlo simulation framework for pricing 
 
 ## Project Website
 
-- Website: https://ahmernadeem.com/research/numerical-monte-carlo-library.html
+- Website: https://ahmernadeem.com/research/cuda-monte-carlo.html
 - This page contains a project overview and detailed programming reports describing the code, tasks, experiments, results (including figures), and conclusions.
 
 ## Overview
 
 This project implements Monte Carlo methods for pricing various exotic options using NVIDIA CUDA for GPU acceleration. The implementation leverages parallel computing to achieve significant speedups over traditional CPU-based Monte Carlo simulations.
+
+## Repository Structure
+
+- `main.cpp` - Main driver program for Monte Carlo simulation
+- `kernel.cu` - CUDA kernel implementation for GPU-accelerated Monte Carlo paths
+- `kernel.h` - Header file for CUDA kernel functions
+- `dev_array.h` - Device array utilities for GPU memory management
+- `Makefile.mak` - Build configuration for compiling CUDA code
 
 ## Features
 
