@@ -5,7 +5,7 @@ A high-performance GPU-accelerated Monte Carlo simulation framework for pricing 
 ## Project Website
 
 - Website: https://ahmernadeem.com/research/cuda-monte-carlo.html
-- This page contains a project overview and detailed programming reports describing the code, tasks, experiments, results (including figures), and conclusions.
+- This page contains a project overview and a detailed paper-style survey of the methods and results in the literature, as well as the results from my implementation.
 
 ## Abstract
 
