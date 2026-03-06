@@ -36,3 +36,7 @@ Many Monte Carlo methods are embarrassingly parallel due to independence, and ca
 ## Languages
 
 **Primary:** CUDA C++, C++
+
+## References
+
+- [Monte Carlo Simulations In CUDA - Barrier Option Pricing](https://www.quantstart.com/articles/Monte-Carlo-Simulations-In-CUDA-Barrier-Option-Pricing/) - QuantStart
